@@ -1,10 +1,11 @@
 # 🔒 Android Persistence Research Framework
 
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue?style=flat-square)](LICENSE)
-[![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/downloads/)
+[![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/downloads/)
+[![Androguard](https://img.shields.io/badge/Androguard-4.1%2B-blue?style=flat-square)](https://github.com/androguard/androguard)
 [![Code Style](https://img.shields.io/badge/Code%20Style-Black-000000?style=flat-square&logo=python)](https://github.com/psf/black)
-[![Security Research](https://img.shields.io/badge/Security-Research-red?style=flat-square)](research/findings.md)
 [![Tests](https://img.shields.io/badge/Tests-PyTest-green?style=flat-square&logo=pytest)](tests/)
+[![Research](https://img.shields.io/badge/Phase-Research%20%26%20Analysis-critical?style=flat-square)](research/)
 [![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square)]()
 [![Contributions](https://img.shields.io/badge/Contributions-Welcome-brightgreen?style=flat-square)]()
 
