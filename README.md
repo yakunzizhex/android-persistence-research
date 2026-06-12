@@ -1,11 +1,12 @@
-# Android Persistence Research Framework
+# 🔒 Android Persistence Research Framework
 
-[![GitHub License](https://img.shields.io/github/license/yourusername/android-persistence-analysis?style=flat-square)](https://github.com/yourusername/android-persistence-analysis/blob/main/LICENSE)
-[![Python Version](https://img.shields.io/badge/Python-3.10+-blue?style=flat-square)](https://www.python.org/downloads/)
-[![Code Style: Black](https://img.shields.io/badge/code%20style-black-000000.svg?style=flat-square)](https://github.com/psf/black)
-[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen?style=flat-square)](CONTRIBUTING.md)
-[![Tests Passing](https://img.shields.io/badge/tests-passing-brightgreen?style=flat-square)](https://github.com/yourusername/android-persistence-analysis/actions)
-[![Coverage](https://img.shields.io/badge/coverage-70%25-yellowgreen?style=flat-square)](docs/COVERAGE.md)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue?style=flat-square)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/downloads/)
+[![Code Style](https://img.shields.io/badge/Code%20Style-Black-000000?style=flat-square&logo=python)](https://github.com/psf/black)
+[![Security Research](https://img.shields.io/badge/Security-Research-red?style=flat-square)](research/findings.md)
+[![Tests](https://img.shields.io/badge/Tests-PyTest-green?style=flat-square&logo=pytest)](tests/)
+[![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square)]()
+[![Contributions](https://img.shields.io/badge/Contributions-Welcome-brightgreen?style=flat-square)]()
 
 > **A comprehensive Python-based research framework for analyzing Android persistence techniques and defensive mitigations.**
 
