@@ -1,15 +1,40 @@
 # 🔒 Android Persistence Research Framework
 
-[![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
-[![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/downloads/)
-[![Androguard](https://img.shields.io/badge/Androguard-4.1%2B-blue?style=flat-square)](https://github.com/androguard/androguard)
-[![Code Style](https://img.shields.io/badge/Code%20Style-Black-000000?style=flat-square&logo=python)](https://github.com/psf/black)
-[![Tests](https://img.shields.io/badge/Tests-PyTest-green?style=flat-square&logo=pytest)](tests/)
-[![Research](https://img.shields.io/badge/Phase-Research%20%26%20Analysis-critical?style=flat-square)](research/)
-[![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square)]()
-[![Contributions](https://img.shields.io/badge/Contributions-Welcome-brightgreen?style=flat-square)]()
+<p align="center">
+  <a href="https://github.com/zyekhabdul/android-persistence-research/actions/workflows/ci.yml">
+    <img src="https://github.com/zyekhabdul/android-persistence-research/actions/workflows/ci.yml/badge.svg" alt="CI Build Status">
+  </a>
+  <a href="LICENSE">
+    <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="License: MIT">
+  </a>
+  <a href="https://www.python.org/downloads/">
+    <img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python 3.10+">
+  </a>
+  <a href="SECURITY.md">
+    <img src="https://img.shields.io/badge/Security-Audited-blueviolet?style=flat-square" alt="Security Audited">
+  </a>
+</p>
 
 > **A comprehensive Python-based research framework for analyzing Android persistence techniques and defensive mitigations.**
+
+---
+
+## 🏗️ Android Persistence Analysis Flow
+
+```mermaid
+graph TD
+    A["Target Android APK / Device Dump / Boot Image"] --> B["Static APK & Manifest Parser (Androguard)"]
+    A --> C["Init Services & Boot Hook Auditor (init.rc)"]
+    
+    B --> D["Persistence Analyzer Engine"]
+    C --> D
+    
+    D --> E["Risk Scoring & Threat Classifier"]
+    E --> F["Evidence-Based Mitigation Engine"]
+    
+    F --> G["Multi-Format Exporter (JSON / HTML / PDF / STIX 2.1)"]
+```
+
 
 ## 🎯 Overview
 
