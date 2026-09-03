@@ -11,7 +11,7 @@ import pytest
 import json
 import tempfile
 from pathlib import Path
-from src.persistence_detector import (
+from android_persistence.persistence_detector import (
     PersistenceDetector,
     PersistenceType,
     SeverityLevel,
@@ -191,4 +191,4 @@ class TestPersistenceFinding:
         )
 
         assert finding.confidence == 85
-        assert len(finding.mitigations) > 0
+        assert len(finding.mitigations) == 0

@@ -5,9 +5,9 @@ Tests hex analysis, manifest parsing, and signature matching.
 """
 
 import pytest
-from src.utils.logger import LoggerConfig
-from src.utils.signature_matcher import SignatureMatcher, SignatureSeverity
-from src.utils.manifest_parser import ManifestParser
+from android_persistence.utils.logger import LoggerConfig
+from android_persistence.utils.signature_matcher import SignatureMatcher, SignatureSeverity
+from android_persistence.utils.manifest_parser import ManifestParser
 
 
 class TestLoggerConfig:
@@ -48,7 +48,7 @@ class TestSignatureMatcher:
         """Test BOOT_COMPLETED receiver detection."""
         data = "Intent filter contains android.intent.action.BOOT_COMPLETED"
         matches = self.matcher.match_signatures(data)
-        assert any("BOOT" in m[0].name for m in matches)
+        assert any("Boot" in m[0].name for m in matches)
 
     def test_risk_score_calculation(self):
         """Test risk score calculation."""

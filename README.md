@@ -1,6 +1,9 @@
 # 🔒 Android Persistence Research Framework
 
 <p align="center">
+  <a href="https://pypi.org/project/android-persistence/">
+    <img src="https://img.shields.io/pypi/v/android-persistence.svg" alt="PyPI Version">
+  </a>
   <a href="https://github.com/zyekhabdul/android-persistence-research/actions/workflows/ci.yml">
     <img src="https://github.com/zyekhabdul/android-persistence-research/actions/workflows/ci.yml/badge.svg" alt="CI Build Status">
   </a>
@@ -8,7 +11,7 @@
     <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="License: MIT">
   </a>
   <a href="https://www.python.org/downloads/">
-    <img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python 3.10+">
+    <img src="https://img.shields.io/badge/Python-3.9%2B-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python 3.9+">
   </a>
   <a href="SECURITY.md">
     <img src="https://img.shields.io/badge/Security-Audited-blueviolet?style=flat-square" alt="Security Audited">
@@ -16,6 +19,26 @@
 </p>
 
 > **A comprehensive Python-based research framework for analyzing Android persistence techniques and defensive mitigations.**
+
+---
+
+## 🚀 Quick Installation
+
+### Standard PyPI Installation
+```bash
+# Core CLI & Analysis Engine
+pip install android-persistence
+
+# Full Suite (with static APK analyzer & crypto engine)
+pip install "android-persistence[full]"
+```
+
+### From Source
+```bash
+git clone https://github.com/zyekhabdul/android-persistence-research.git
+cd android-persistence-research
+pip install -e ".[full]"
+```
 
 ---
 
